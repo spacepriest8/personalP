@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>personlProfilePage</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4
+            }
+            .prfile-page {
+                background-color:#fff;
+                padding: 20px;
+                margin: 20px auto;
+                border-radius: 10px;
+                width: 50%;
+                box-shadow:0px, 10px, 0px, rgba(0, 0, 0, 0.1);
+            }
+            img {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+            table {
+                width: 55%;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 2px solid black
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+        </style>
+
+
+
+    </head>
+    
+    <body>
+        <div class="profile-page">
+            <h1>my name is okoronkwo Chikoadi Kingsley</h1>
+            <p> Hello! I'm a backend/frontend developer passionate about building scalable web applications.</p>
+            <img src="/images/5839312221837051397_121.jpg" alt="this is cks profile pics"/> 
+
+            <a href ="https://www.google.com" target="_blank">click here to go to google</a>
+
+            <a href="about.html">click here to go to the about me </a>
+
+            <a href="#aboutMe-section">click here to go to the aboutMe section</a>
+        </div>
+        
+        <div id="aboutMe-section" class = "profile-page">
+            <h2>about me</h2>
+            <p>I specialize in backend development using Django, JavaScript, and databases like MongoDB.</p>
+        </div>
+
+        <div class="profile-page">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"required><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br><br>
+            </form>
+        </div>
+
+            <div class="profile-page">
+                <p2>Favourite Movies</p2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>movie Name</th>
+                        <th>why i like it</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Avengers</td>
+                        <td>It's a great movie with a lot of action</td>
+                    </tr>
+                    <tr>
+                        <td>Black Panther</td>
+                        <td>its a good movie packed with lots of actions</td>
+                        </tr>
+                    <tr>
+                        <td>Money Heist</td>
+                        <td>An insigtfull movie</td>
+                    </tr>
+                    </tbody>
+            </table>
+            </div>
+        
+
+
+
+    </body>
+
+
+
+
+
+
+    </html>
+
